@@ -5,10 +5,10 @@ $(function() {
    */
   'use strict';
   var data = {
-    labels: ["2013", "2014", "2014", "2015", "2016", "2017"],
+    labels: ["Day1", "Day2", "Day3", "Day4", "Day5", "Day6", "Day7"],
     datasets: [{
       label: '# of Votes',
-      data: [10, 19, 3, 5, 2, 3],
+      data: [10, 19, 3, 5, 2, 3, 0],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',
@@ -16,7 +16,7 @@ $(function() {
         'rgba(75, 192, 192, 0.2)',
         'rgba(153, 102, 255, 0.2)',
         'rgba(255, 159, 64, 0.2)'
-      ],
+      ], 
       borderColor: [
         'rgba(255,99,132,1)',
         'rgba(54, 162, 235, 1)',
@@ -30,7 +30,7 @@ $(function() {
     }]
   };
   var multiLineData = {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: ["Day1", "Day2", "Day3", "Day4", "Day5", "Day6", "Day7"],
     datasets: [{
         label: 'Dataset 1',
         data: [12, 19, 3, 5, 2, 3],
@@ -114,7 +114,7 @@ $(function() {
     }
   };
   var areaData = {
-    labels: ["2013", "2014", "2015", "2016", "2017"],
+    labels: ["Day1", "Day2", "Day3", "Day4", "Day5", "Day6", "Day7"],
     datasets: [{
       label: '# of Votes',
       data: [12, 19, 3, 5, 2, 3],
